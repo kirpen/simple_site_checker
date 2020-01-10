@@ -1,0 +1,58 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    concurrent-ruby (1.1.5)
+    daemons (1.3.1)
+    et-orbi (1.2.2)
+      tzinfo
+    eventmachine (1.0.9.1)
+    fugit (1.3.3)
+      et-orbi (~> 1.1, >= 1.1.8)
+      raabro (~> 1.1)
+    mail (2.7.1)
+      mini_mime (>= 0.1.1)
+    mailcatcher (0.7.1)
+      eventmachine (= 1.0.9.1)
+      mail (~> 2.3)
+      rack (~> 1.5)
+      sinatra (~> 1.2)
+      skinny (~> 0.2.3)
+      sqlite3 (~> 1.3)
+      thin (~> 1.5.0)
+    mini_mime (1.0.2)
+    raabro (1.1.6)
+    rack (1.6.12)
+    rack-protection (1.5.5)
+      rack
+    rufus-scheduler (3.6.0)
+      fugit (~> 1.1, >= 1.1.6)
+    sinatra (1.4.8)
+      rack (~> 1.5)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    skinny (0.2.4)
+      eventmachine (~> 1.0.0)
+      thin (>= 1.5, < 1.7)
+    sqlite3 (1.4.2)
+    thin (1.5.1)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
+    tilt (2.0.10)
+    tzinfo (2.0.1)
+      concurrent-ruby (~> 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  daemons
+  mail
+  mailcatcher
+  rufus-scheduler
+
+RUBY VERSION
+   ruby 2.6.5p114
+
+BUNDLED WITH
+   1.17.3
